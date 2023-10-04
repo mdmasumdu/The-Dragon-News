@@ -34,10 +34,10 @@ const Navabar = () => {
   <div className="navbar-end">
   <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img src={image} />
+          <Link to='/register'><img src={image} /></Link>
         </div>
       </label>
-    <Link className="btn">Login</Link>
+    <Link to={"/login"} className="btn">Login</Link>
   </div>
 </div>
     );

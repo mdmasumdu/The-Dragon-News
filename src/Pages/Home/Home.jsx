@@ -21,7 +21,7 @@ const Home = () => {
                     <Lefside></Lefside>
                 </div>
                 <div className="col-span-2 border">
-                    <h1 className="text-5xl text-center">News Comming soon</h1>
+                    <h1 className="text-5xl text-center"><Outlet></Outlet></h1>
                 </div>
                 <div className="border">
                     <Rigsidenav></Rigsidenav>

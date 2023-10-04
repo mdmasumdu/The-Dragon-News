@@ -45,7 +45,7 @@ const Rigsidenav = () => {
             {/* Q ZOne */}
 
 
-            <div className='bg-slate-200 p-5'>
+            <div className='bg-slate-200 p-5 text-black'>
                 <h1 className="text-2xl font-bold">Q Zone</h1>
 
                 <img src={q1} alt="" />
