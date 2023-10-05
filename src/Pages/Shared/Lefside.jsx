@@ -17,7 +17,7 @@ const Lefside = () => {
 
             <div className="space-y-6 mt-5">
                 {
-                    categories.map(category=><NavLink key={category.id} to={`/category/${category.id}`}  className={`block md:pl-16`}>{category.name}</NavLink>)
+                    categories.map(category=><NavLink key={category.id}   className={`block md:pl-16`}>{category.name}</NavLink>)
                 }
             </div>
 
